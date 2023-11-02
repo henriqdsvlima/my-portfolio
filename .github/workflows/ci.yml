@@ -21,7 +21,7 @@ jobs:
         run: npm i @angular/cli
       
       - name: Install Lint
-        run: ng lint --fix
+        run: npx lint --fix
 
       - name: Build
-        run: ng build
+        run: npx build
