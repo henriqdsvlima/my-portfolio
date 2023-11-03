@@ -1,0 +1,6 @@
+.logo {
+    @apply flex-none w-14 h-14 
+}
+.nav-items {
+    @apply flex-initial w-64 text-portfolio-text p-2 m-2 hover:text-hover-color; 
+}
